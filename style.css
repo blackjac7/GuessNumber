@@ -28,20 +28,45 @@
 }
 
 .button {
-	margin: 10px;
-	width: 80px;
-	height: 30px;
 }
 
 .check {
 	color: white;
-	background-color: gray;
+	background-color: #33C4FF;
+	border-style: none;
+	border-radius: 20px;
+	width: 120px;
+	height: 40px;
+	font-size: 15px;
+	font-family: sans-serif;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.restart {
+	color: white;
+	background-color: red;
+	border-style: none;
+	border-radius: 20px;
+	width: 120px;
+	height: 40px;
+	font-size: 15px;
+	font-family: sans-serif;
+	margin-left: 20px;
+}
+
+.check:hover {
+	border: 1px solid black;
+}
+
+.restart:hover {
+	border: 1px solid black;
 }
 
 .alert-warning {
-	background-color: red;
+	background-color: orange;
 	height: 40px;
-	color: white;
+	color: gray;
 	font-size: 20px;
 	padding-top: 15px;
 }
@@ -52,4 +77,16 @@
 	color: white;
 	font-size: 20px;
 	padding-top: 15px;
+}
+
+.list-group {
+	list-style: none;
+}
+
+.list-group-item {
+	margin-top: 20px;
+	margin-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+	border: 1px solid black;
 }
